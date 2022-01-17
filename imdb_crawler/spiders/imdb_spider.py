@@ -1,5 +1,4 @@
 import scrapy
-from scrapy.http import request
 from  imdb_crawler.items import ImdbCrawlerItem
 
 def get_imdb_urls(csv_data='imdb_urls.csv'):
